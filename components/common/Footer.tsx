@@ -3,7 +3,7 @@ import { socialLinks } from "@/data/social";
 
 export default function Footer() {
   return (
-    <Container>
+    <div className="flex flex-col items-center justify-center mx-auto max-w-4xl">
       <footer className="flex w-full items-center justify-between py-12 border-t text-sm">
         <p className="text-muted-foreground">
           Built and Designed by <span className="font-bold">Sai Zack</span>.
@@ -24,6 +24,6 @@ export default function Footer() {
           ))}
         </div>
       </footer>
-    </Container>
+    </div>
   );
 }

@@ -1,7 +1,17 @@
+import ContactInfo from "@/components/sections/home/contact-info";
+import HeroSection from "@/components/sections/home/hero-section";
+import TechStack from "@/components/sections/home/tech-stack";
+import TopProjects from "@/components/sections/home/top-projects";
+import WorkExp from "@/components/sections/home/work-exp";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen w-full flex-col items-center justify-centerbg-white dark:bg-black sm:items-start">
-      {/* Page Content */}
-    </main>
+    <>
+      <HeroSection />
+      <TechStack />
+      <TopProjects />
+      <WorkExp />
+      <ContactInfo />
+    </>
   );
 }

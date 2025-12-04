@@ -1,7 +1,5 @@
-import React from 'react'
-
 export default function ContactForm() {
   return (
-    <div>ContactForm</div>
-  )
+    <div className="w-full h-full bg-blue-100">ContactForm</div>
+  );
 }

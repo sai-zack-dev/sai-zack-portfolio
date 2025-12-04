@@ -1,7 +1,7 @@
-import React from 'react'
-
 export default function CurrentStatus() {
   return (
-    <div>CurrentStatus</div>
-  )
+    <div className="w-full h-full bg-blue-100">
+      Current Status Section
+    </div>
+  );
 }
