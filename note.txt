@@ -13,6 +13,7 @@ Home
 About
 - Intro (who am I)
 - Journey (Timeline)
+- Hobbies (Travel, Gym, Cooking)
 
 Projects
 - Intro (Tech Stack)
