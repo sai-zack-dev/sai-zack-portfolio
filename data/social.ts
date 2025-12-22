@@ -34,14 +34,14 @@ export const socialLinks: SocialLink[] = [
     href: "https://codepen.io/yourusername",
     icon: SiCodepen,
   },
-  // {
-  //   name: "LeetCode",
-  //   href: "https://leetcode.com/yourusername",
-  //   icon: SiLeetcode,
-  // },
   {
-    name: "Resume",
-    href: "/resume.pdf",
-    icon: SiGoogledocs,
+    name: "LeetCode",
+    href: "https://leetcode.com/yourusername",
+    icon: SiLeetcode,
   },
+  // {
+  //   name: "Resume",
+  //   href: "/resume.pdf",
+  //   icon: SiGoogledocs,
+  // },
 ];

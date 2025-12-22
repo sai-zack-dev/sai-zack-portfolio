@@ -10,9 +10,10 @@ export default function HeroSection() {
   return (
     <main className="w-full h-full flex items-center justify-center">
       <FlickeringGrid
-        className="absolute inset-0 z-0 size-full mask-b-from-50% mask-t-from-50% mask-radial-[50%_90%] mask-radial-from-80%"
+        className="absolute inset-0 z-0 size-full dark:mask-b-from-50% dark:mask-t-from-50% dark:mask-radial-from-50% mask-b-from-10% mask-t-from-10% mask-radial-from-90%"
         squareSize={5}
         gridGap={10}
+        // color="#6B7280"
         color="#00C660"
         maxOpacity={0.5}
         flickerChance={0.1}

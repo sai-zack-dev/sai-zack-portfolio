@@ -6,7 +6,7 @@ export default function Header({title, description}: {title: string; description
       <h2 className="text-lg md:text-3xl mb-4 text-black dark:text-white max-w-4xl">
         #{title}
       </h2>
-      <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-md">
+      <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-2xl">
         {description}
       </p>
     </div>  
