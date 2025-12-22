@@ -54,7 +54,6 @@ export const techStackLanguages = [
   "✔ JS/TS [Node.js full-stack development]",
   "✔ SQL [DBMS, queries, and optimization]",
   "✔ Python [Learning DSA and scripting]",
-  "✔ Golang [Currently Learning]",
 ];
 
 /**

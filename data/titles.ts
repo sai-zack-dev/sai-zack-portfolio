@@ -1,10 +1,10 @@
 export const heroTitles = {
   greeting: "Hello, it's me.",
-  name: "<sai-zack/>",
+  name: "<Sai Zack/>",
   rolePrefix: "Software",
   roles: ["Engineer", "Developer", "Architect", "Designer"],
   description:
-    "I build web, mobile, and desktop solutions in JavaScript and PHP, along with supporting UI/UX work. I deliver complete, production-ready applications from idea to launch.",
+    "Building web, mobile, and desktop solutions using JavaScript and PHP, supported by strong UI/UX practices. Delivering complete, production-ready applications from concept to launch.",
   cta: {
     label: "Download Resume",
     href: "/resume.pdf",
