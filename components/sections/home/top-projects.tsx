@@ -6,18 +6,27 @@ export default function TopProjects() {
   const slideData = [
     {
       title: "Mystic Mountains",
-      button: "View More",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque iusto ad repellendus", 
       src: "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "/projects"
     },
     {
       title: "Urban Dreams",
-      button: "View More",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque iusto ad repellendus",
       src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "/projects"
     },
     {
       title: "Neon Nights",
-      button: "View More",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque iusto ad repellendus",
       src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "/projects"
+    },
+    {
+      title: "More Projects",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque iusto ad repellendus",
+      src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "/projects"
     },
   ];
   return (

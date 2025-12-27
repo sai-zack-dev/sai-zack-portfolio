@@ -2,11 +2,14 @@
 "use client";
 import { IconArrowNarrowRight } from "@tabler/icons-react";
 import { useState, useRef, useId, useEffect } from "react";
+import { InteractiveHoverButton } from "./interactive-hover-button";
+import Link from "next/link";
 
 interface SlideData {
   title: string;
-  button: string;
+  description: string;
   src: string;
+  link: string;
 }
 
 interface SlideProps {
@@ -63,7 +66,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
     event.currentTarget.style.opacity = "1";
   };
 
-  const { src, button, title } = slide;
+  const { src, description, title, link } = slide;
 
   return (
     <div className="perspective-distant transform-3d">
@@ -83,7 +86,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
         }}
       >
         <div
-          className="absolute top-0 left-0 w-full h-full bg-[#1D1F2F] rounded-[1%] overflow-hidden transition-all duration-150 ease-out"
+          className="absolute top-0 left-0 w-full h-full bg-[#1D1F2F] rounded-xl overflow-hidden transition-all duration-150 ease-out"
           style={{
             transform:
               current === index
@@ -91,6 +94,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
                 : "none",
           }}
         >
+
           <img
             className="absolute inset-0 w-[120%] h-[120%] object-cover opacity-100 transition-opacity duration-600 ease-in-out"
             style={{
@@ -112,14 +116,17 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
             current === index ? "opacity-100 visible" : "opacity-0 invisible"
           }`}
         >
-          <h2 className="text-lg md:text-2xl lg:text-4xl font-semibold  relative">
+          <h2 className="text-lg md:text-2xl lg:text-3xl font-semibold relative">
             {title}
           </h2>
-          <div className="flex justify-center">
-            <button className="mt-6  px-4 py-2 w-fit mx-auto sm:text-sm text-black bg-white h-12 border border-transparent text-xs flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-200 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
-              {button}
-            </button>
-          </div>
+          <p className="text-sm md:text-base text-gray-200 max-w-lg">
+            {description}
+          </p>
+          <Link href={link} className="flex justify-center">
+            <InteractiveHoverButton onClick={()=>link} className="mt-6 cursor-pointer text-xs md:text-sm text-black bg-white">
+              View More
+            </InteractiveHoverButton>
+          </Link>
         </article>
       </li>
     </div>
