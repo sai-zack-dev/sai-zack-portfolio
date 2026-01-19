@@ -1,37 +1,19 @@
-Template
-- Nav
-- Content
-- Footer
+Project page idea
 
-Home
-- Hero
-- Tech
-- Projects
-- Exp
-- CTA (quick Resume download or next page)
+- Solution & System Architecture
+Work: [Service Management], Personal: [QBIV, HRMS, SmartQ]
 
-About
-- Intro (who am I)
-- Journey (Timeline)
-- Hobbies (Travel, Gym, Cooking)
+- UI/UX Design
+Personal: [FlatSync, QBIV]
 
-Projects
-- Intro (Tech Stack)
-- List 
+- Frontend Development
+Work: [Service Management, Content Management, School Management], Personal: [Hotel Management]
 
-Contact
-- Intro (Get in touch)
-- Social Links + Resume
+- Cross-platform Development
+Personal: [QBIV(Desktop), FlatSync(Mobile, Ongoing)]
 
-More...
+- Backend & API Engineering
+Work: [Service Management, School Management, HR Management], Personal: [Hotel Management]
 
-Hobbies (& Interests)
-- Intro
-- Personal Hobbies
-- Dream
-
-Blog (Comming Soon)
-- Intro
-- List
-
-blog ideas => some doc in mm version.
+- Dev Tooling
+Personal: [NezT]

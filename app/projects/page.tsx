@@ -6,7 +6,7 @@ export default function Projects() {
     <main className="flex flex-col w-full max-w-4xl items-center justify-center sm:items-start mx-auto mt-14 p-5">
       <Header
         title="Projects Page - Intro"
-        description="This is the Projects page of the application."
+        description="This is the Projects page of the application. I've done different SDLC methodologies in various projects."
       />
       <ProjectList />
     </main>
