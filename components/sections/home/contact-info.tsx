@@ -14,11 +14,11 @@ export default function ContactInfo() {
           </p>
         </div>
         <div className="flex gap-3">
-          <a href="" target="_blank" className="underline underline-offset-3">
+          <a href="https://www.linkedin.com/in/sai-zay-linn-htet" target="_blank" className="underline underline-offset-3">
             {" "}
             View LinkedIn{" "}
           </a>
-          <a href="" target="_blank" className="underline underline-offset-3">
+          <a href="/Resume.pdf" target="_blank" className="underline underline-offset-3">
             {" "}
             Download Resume{" "}
           </a>

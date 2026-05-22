@@ -79,13 +79,13 @@ export default function Hobbies() {
   ];
 
   return (
-    <div className="w-full h-full justify-center flex flex-col items-center py-24">
+    <div className="w-full h-full justify-center flex flex-col py-24">
       <Header
         title="Know More About Me"
         description="Here is my hobbies and interests outside of coding and technology."
       />
 
-      <div className="relative flex justify-center w-full my-50">
+      <div className="relative flex justify-center w-full mt-50 mb-10">
         <Folder
           size={2}
           color="#008CFA"
@@ -100,7 +100,7 @@ export default function Hobbies() {
         </p>
       </div>
 
-      {selectedHobby && (
+      {/* {selectedHobby && (
         <BounceCards
           key={selectedHobby} // forces re-animation on change
           className="custom-bounceCards"
@@ -113,7 +113,7 @@ export default function Hobbies() {
           transformStyles={transformStyles}
           enableHover={true}
         />
-      )}
+      )} */}
     </div>
   );
 }

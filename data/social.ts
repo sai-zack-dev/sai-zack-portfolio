@@ -1,10 +1,9 @@
 import {
   SiGithub,
   SiLinkedin,
-  SiInstagram,
   SiCodepen,
-  SiLeetcode,
-  SiGoogledocs
+  SiGoogledocs,
+  SiBehance
 } from "react-icons/si";
 
 export interface SocialLink {
@@ -16,12 +15,12 @@ export interface SocialLink {
 export const socialLinks: SocialLink[] = [
   {
     name: "GitHub",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/sai-zack-dev",
     icon: SiGithub,
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://linkedin.com/in/sai-zay-linn-htet",
     icon: SiLinkedin,
   },
   // {
@@ -31,17 +30,22 @@ export const socialLinks: SocialLink[] = [
   // },
   {
     name: "CodePen",
-    href: "https://codepen.io/yourusername",
+    href: "https://codepen.io/SaiZack",
     icon: SiCodepen,
   },
-  {
-    name: "LeetCode",
-    href: "https://leetcode.com/yourusername",
-    icon: SiLeetcode,
-  },
+  // {
+  //   name: "LeetCode",
+  //   href: "https://leetcode.com/yourusername",
+  //   icon: SiLeetcode,
+  // },
   // {
   //   name: "Resume",
   //   href: "/resume.pdf",
   //   icon: SiGoogledocs,
   // },
+  {
+    name: "Behance",
+    href: "https://www.behance.net/sai-zack-art",
+    icon: SiBehance,
+  },
 ];

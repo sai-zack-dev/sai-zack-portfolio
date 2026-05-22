@@ -22,7 +22,7 @@ export default function TechStack() {
       <div className="w-full h-full p-5">
         <Header
           title="Tech_Stack"
-          description="I've been working with these technologies for the past 4 years."
+          description="A collection of technologies, tools, and frameworks I use to design, build, and deliver modern digital experiences."
           prefix="#"
         />
 

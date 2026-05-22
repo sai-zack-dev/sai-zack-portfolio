@@ -48,8 +48,8 @@ const Folder: React.FC<FolderProps> = ({
 
   const folderBackColor = darkenColor(color, 0.08);
   const paper1 = darkenColor("#ffffff", 0.1);
-  const paper2 = darkenColor("#ffffff", 0.05);
-  const paper3 = "#ffffff";
+  const paper2 = darkenColor("#ffffff", 0.07);
+  const paper3 = darkenColor("#ffffff", 0.05);
 
   const handleClick = () => {
     setOpen((prev) => !prev);

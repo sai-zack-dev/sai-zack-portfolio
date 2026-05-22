@@ -96,7 +96,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
         >
 
           <img
-            className="absolute inset-0 w-[120%] h-[120%] object-cover opacity-100 transition-opacity duration-600 ease-in-out"
+            className="absolute inset-0 w-full h-full object-fit opacity-100 transition-opacity duration-600 ease-in-out"
             style={{
               opacity: current === index ? 1 : 0.5,
             }}
@@ -112,7 +112,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
         </div>
 
         <article
-          className={`relative p-[4vmin] transition-opacity duration-1000 ease-in-out ${
+          className={`relative p-[4vmin] transition-opacity duration-1000 ease-in-out flex flex-col items-center ${
             current === index ? "opacity-100 visible" : "opacity-0 invisible"
           }`}
         >

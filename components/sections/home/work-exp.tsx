@@ -8,7 +8,7 @@ export default function WorkExp() {
       <div className="w-full h-full p-5 max-w-4xl mx-auto">
         <Header
           title="Work_Experience"
-          description="I've been working across design and software development for the past few years. Here's a timeline of my journey."
+          description="A journey through the roles, projects, and experiences that have shaped my growth in design and software development over the years."
           prefix="#"
         />
 
