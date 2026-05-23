@@ -224,7 +224,7 @@ cp .env.example .env
 
   {
     id: "elyza",
-    title: "Elyza - Myanmar Chatbot",
+    title: "Elyza Myanmar Chatbot",
     category: "AI",
     description:
       "A rule-based Myanmar language chatbot with emotion detection, served as a Flask REST API.",
@@ -504,7 +504,7 @@ curl -X POST http://localhost:5005/chat \\
   // ── Professional ─────────────────────────────────────────────────────────────
   {
     id: "service-ticket",
-    title: "ServicePro - Service Ticket Management",
+    title: "Service Ticket Management",
     category: "Professional",
     description:
       "Enterprise service ticket management with escalation chains, SLA tracking, and reporting.",
@@ -521,7 +521,7 @@ curl -X POST http://localhost:5005/chat \\
       {
         type: "overview",
         content:
-          "ServicePro is a full-featured enterprise service management platform. Contributed to module development covering ticket lifecycle management, escalation workflows, SLA tracking, and reporting dashboards. Used by organizations for customer and internal IT support at scale.",
+          "This project is a full-featured enterprise service management platform. Contributed to module development covering ticket lifecycle management, escalation workflows, SLA tracking, and reporting dashboards. Used by organizations for customer and internal IT support at scale.",
       },
       {
         type: "features",
@@ -543,7 +543,7 @@ curl -X POST http://localhost:5005/chat \\
 
   {
     id: "school-management",
-    title: "SchoolPro - School Management System",
+    title: "School Management System",
     category: "Professional",
     description:
       "All-in-one school administration platform covering students, grades, timetables, and parent portals.",
@@ -560,7 +560,7 @@ curl -X POST http://localhost:5005/chat \\
       {
         type: "overview",
         content:
-          "SchoolPro is an all-in-one school administration platform deployed across multiple educational institutions. Contributed across student record management, attendance tracking, grade book, timetabling engine, and parent communication modules.",
+          "This project is an all-in-one school administration platform deployed across multiple educational institutions. Contributed across student record management, attendance tracking, grade book, timetabling engine, and parent communication modules.",
       },
       {
         type: "features",
