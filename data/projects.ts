@@ -509,7 +509,6 @@ curl -X POST http://localhost:5005/chat \\
     description:
       "Enterprise service ticket management with escalation chains, SLA tracking, and reporting.",
     tags: ["Enterprise", "Full Stack", "Support System", "Dashboards"],
-    live: "https://myansis.com/products/servicepro",
     nda: true,
     ndaNote: "Professional enterprise project developed under NDA.",
     highlights: [
@@ -549,7 +548,6 @@ curl -X POST http://localhost:5005/chat \\
     description:
       "All-in-one school administration platform covering students, grades, timetables, and parent portals.",
     tags: ["Enterprise", "Full Stack", "EdTech", "ERP"],
-    live: "https://myansis.com/products/schoolpro",
     nda: true,
     ndaNote: "Professional enterprise project developed under NDA.",
     highlights: [

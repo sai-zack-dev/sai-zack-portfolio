@@ -8,7 +8,7 @@ export default function TopProjects() {
       description:
         "AI-powered deep learning system for recognizing and classifying handwritten Burmese characters with high accuracy.",
       src: "assets/mm-hw-recognition.png",
-      link: "/projects/myanmar-handwriting-recognition",
+      link: "/projects/mm-hw-recognizer",
     },
     {
       title: "Query Based Intelligence Visualization",
@@ -29,7 +29,7 @@ export default function TopProjects() {
       description:
         "A comprehensive flatmate and shared room management system designed to streamline communication, task management, and expense tracking.",
       src: "assets/flatsync.png",
-      link: "/projects/flatsync",
+      link: "/projects/flat-sync",
     },
   ];
 
